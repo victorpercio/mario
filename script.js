@@ -65,16 +65,4 @@ const loop = setInterval(() => {
     }
 }, 10);
 
-// ---- Controles ----
-// Teclado (PC)
-document.addEventListener('keydown', jump);
 
-// Toque na tela (Mobile)
-gameBoard.addEventListener('touchstart', jump);
-
-// Clique do mouse também (opcional, funciona em PC e celular)
-gameBoard.addEventListener('click', jump);
-
-function restartGame() {
-    location.reload();
-}
